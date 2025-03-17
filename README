@@ -1,9 +1,9 @@
 # This is application development ver 1.1
 
-This application offers a possibility to turn a Raspberry Pi as a sound device. The 
+This application offers a possibility to turn a Raspberry Pi into a sound device. The 
 application comes with 2 functions: a sound collector and a test tone generator.
 
-List of content:
+## List of content:
 	1. Configuration Instructions
 	2. Installation Instructions
 	3. Operation Instructions
@@ -13,12 +13,12 @@ List of content:
 	7. Credits and Acknowledgements 
 
 
-1. Configuration Instructions:
+## 1. Configuration Instructions:
 	Write on Linux, Raspbian OS in C language
 	Use libcurl
 	Use Raspberry Pi, soundcard, SD card, speakers, microphone
 	
-2. Installation Instructions:
+## 2. Installation Instructions:
 	Set-up Raspbian OS in your SD card:
 		Insert SD-card adapter into the SD-card slot of your PC or card-reader, 
 			the system will inform you a USB storage device is available
@@ -28,8 +28,8 @@ List of content:
 		Go to http://www.cc.puv.fi/~e1800961/ then dowload the instruction: RPi3boot.docx
 			and follow the instruction
 
-3. Operation Instructions:
-	SOUND COLLECTOR:
+## 3. Operation Instructions:
+	### SOUND COLLECTOR:
 		You need a soundcard with Microphone connected to the raspberry pi
 
 		Run "cd AppDev" command
@@ -41,7 +41,7 @@ List of content:
 		Use Crtl+C command to stop the program
 		Run "clear" command to clear the screen
 
-	TEST TONE GENERATOR:
+	### TEST TONE GENERATOR:
 		You need a soundcard with Speakers connected to the raspberry pi
 
 		Run "cd AppDev" command
@@ -56,7 +56,7 @@ List of content:
 			"scp testTone.wav yourEmail@zxc.zxc.zxc:." command
 		Now connect to your remote account to listen to the testTone.wav
 
-4. List of Files:
+## 4. List of Files:
 	makefile: for cleaning and compile files
 	main.c: main structure with functions and display
 	README: file about instructions
@@ -71,13 +71,13 @@ List of content:
 		using curl library function to an URL
 	sound.php: show details of tracking sound information on sever
 
-5. Copyleft
+## 5. Copyleft
 
-6. Contact Information:
-	Author: Gia Huy Hoang
-	Contributor: Gia Huy Hoang with help of GC
-	Email: e1800961@edu.vamk.fi
+## 6. Contact Information:
+	Author: Huy Gia Hoang
+	Contributor: Huy Hoang with the help of Dr. Gao Chao
+	Email: huyhoanghp.office@gmail.com
 
-7. Credits and Acknowledgements:
+## 7. Credits and Acknowledgements:
 	Special thank to Doctor Gao Chao for helping me to complete this project
 	
