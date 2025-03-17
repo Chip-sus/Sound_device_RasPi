@@ -29,7 +29,7 @@ application comes with 2 functions: a sound collector and a test tone generator.
 			and follow the instruction
 
 ## 3. Operation Instructions:
-	### SOUND COLLECTOR:
+### SOUND COLLECTOR:
 		You need a soundcard with Microphone connected to the raspberry pi
 
 		Run "cd AppDev" command
@@ -41,11 +41,11 @@ application comes with 2 functions: a sound collector and a test tone generator.
 		Use Crtl+C command to stop the program
 		Run "clear" command to clear the screen
 
-	### TEST TONE GENERATOR:
+### TEST TONE GENERATOR:
 		You need a soundcard with Speakers connected to the raspberry pi
 
 		Run "cd AppDev" command
-        Run "make clean" command to remove all the previous compiled files to the origin
+        	Run "make clean" command to remove all the previous compiled files to the origin
 		Run "make" command to recompile the files needed
 		Run "./sound.out .." while .. is any argument to run the test tone generator
 		Choose numbers of channel 1 or 2
